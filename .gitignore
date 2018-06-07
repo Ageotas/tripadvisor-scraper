@@ -2,3 +2,8 @@ venv
 .idea
 __pycache__
 reviews.csv
+*.pyc
+nltk_out.csv
+/data
+/images
+/output

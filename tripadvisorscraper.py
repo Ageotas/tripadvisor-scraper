@@ -9,7 +9,8 @@ import scrapy
 # TA uses javascript for the next/prev page controls, which are nontrivial to
 # scrape. Lucklily the URLs are predictable, so we'll just generate them.
 # TODO: get the number of pages from the initial scrape?
-URL_TEMPLATE = 'https://www.tripadvisor.com.au/Attraction_Review-g255100-d269501-Reviews-or%s-Australian_Centre_for_the_Moving_Image-Melbourne_Victoria.html'
+URL_TEMPLATE = 'https://www.tripadvisor.com.au/Attraction_Review-g255103-d526770-Reviews-or%s-Scitech-Perth_Greater_Perth_Western_Australia.html'
+#URL_TEMPLATE = 'https://www.tripadvisor.com.au/Attraction_Review-g255100-d269501-Reviews-or%s-Australian_Centre_for_the_Moving_Image-Melbourne_Victoria.html'
 NUM_PAGES = 116
 def url_generator():
     for page in range(NUM_PAGES):
