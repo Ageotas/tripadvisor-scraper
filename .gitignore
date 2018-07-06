@@ -4,6 +4,7 @@ __pycache__
 reviews.csv
 *.pyc
 nltk_out.csv
-/data
+#/data
 /images
 /output
+*.save
