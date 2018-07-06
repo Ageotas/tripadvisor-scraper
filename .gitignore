@@ -5,6 +5,6 @@ reviews.csv
 *.pyc
 nltk_out.csv
 #/data
-/images
-/output
+#/images
+#/output
 *.save
